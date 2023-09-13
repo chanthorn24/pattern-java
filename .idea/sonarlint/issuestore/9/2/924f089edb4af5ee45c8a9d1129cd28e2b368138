@@ -1,0 +1,9 @@
+
+7
+java:S1220""Move this file to a named package.8¹îŞã¨1
+L	java:S106"+Replace this use of System.out by a logger.(×«şËûÿÿÿÿ8ÀîŞã¨1
+O
+java:S1135"2Complete the task associated to this TODO comment.(´½¦8ç¡úã¨1
+L	java:S106	"+Replace this use of System.out by a logger.(ÛÉñ§øÿÿÿÿ8Òàúã¨1
+G	java:S106
+"+Replace this use of System.out by a logger.(’´¸Ø8Òàúã¨1
