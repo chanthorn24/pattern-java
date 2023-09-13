@@ -7,7 +7,7 @@ public enum LocationType {
 
   CAMBODIA("cambodia", LocationConstant.CAMBODIA),
   JAPAN("japan", LocationConstant.JAPAN),
-  FRANCE("frANCE", LocationConstant.FRANCE);
+  FRANCE("france", LocationConstant.FRANCE);
 
   LocationType(String key, String value) {
     this.key = key;
