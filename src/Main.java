@@ -1,5 +1,10 @@
-import pattern.abstract_factory.CambodiaCarFactory;
-import pattern.factory.CarFactory;
+import pattern.creation.abstract_factory.CambodiaCarFactory;
+import pattern.creation.factory.CarFactory;
+import pattern.structural.adapter.BmwCar;
+import pattern.structural.adapter.Movable;
+import pattern.structural.adapter.MovableAdapter;
+import pattern.structural.adapter.MovableAdapterImpl;
+import pattern.structural.adapter.ToyotaCar;
 import utils.CarType;
 
 public class Main {
@@ -50,5 +55,26 @@ public class Main {
         ### Singleton Pattern
         """);
 
+    /*
+     * @pattern type: Adapter
+     * @usage: Adapter, It enables two incompatible interfaces to work smoothly with each other.
+     *         Convert the interface of a class into another interface clients expect.
+
+     * @since 09-10-2023
+     * @author Chanthorn LY
+     */
+    System.out.println("""
+                
+                
+        ### Adapter Design Pattern
+        """);
+    Movable bmw = new BmwCar();
+    Movable toyota = new ToyotaCar();
+    MovableAdapter bmwAdapter = new MovableAdapterImpl(bmw);
+    MovableAdapter toyotaAdapter = new MovableAdapterImpl(toyota);
+    System.out.println(bmw.getSpeed());
+    System.out.println(bmwAdapter.getSpeed());
+    System.out.println(toyota.getSpeed());
+    System.out.println(toyotaAdapter.getSpeed());
   }
 }

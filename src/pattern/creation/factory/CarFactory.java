@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.creation.factory;
 
 import utils.CarType;
 

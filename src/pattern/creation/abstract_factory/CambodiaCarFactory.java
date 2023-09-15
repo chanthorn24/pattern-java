@@ -1,4 +1,4 @@
-package pattern.abstract_factory;
+package pattern.creation.abstract_factory;
 
 import utils.CarType;
 import utils.LocationType;
